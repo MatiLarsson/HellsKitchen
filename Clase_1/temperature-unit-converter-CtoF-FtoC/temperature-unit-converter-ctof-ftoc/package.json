@@ -1,0 +1,31 @@
+{
+  "name": "temperature-unit-converter-ctof-ftoc",
+  "version": "1.0.3",
+  "description": "celsius <-> farenheit converter",
+  "main": "index.js",
+  "bin": {
+    "temperature": "bin/temperature.js"
+  },
+  "scripts": {
+    "start": "node ./bin/temperature.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatiLarsson/temperature-unit-converter-ctof-ftoc.git"
+  },
+  "keywords": [
+    "temperature-unit-converter-ctof-ftoc",
+    "temperature converter",
+    "celsius to farenheit",
+    "farenheit to celsius"
+  ],
+  "author": "Matias Larsson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MatiLarsson/temperature-unit-converter-ctof-ftoc/issues"
+  },
+  "homepage": "https://github.com/MatiLarsson/temperature-unit-converter-ctof-ftoc#readme",
+  "dependencies": {
+    "number2texto": "^0.0.9"
+  }
+}
